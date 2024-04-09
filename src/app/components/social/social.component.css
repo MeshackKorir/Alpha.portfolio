@@ -1,0 +1,89 @@
+.flex {
+  display: flex;
+}
+
+.soft {
+  flex: 1;
+  padding: 20px;
+  margin-left: 135px;
+  text-align: left;
+  color: #a19e9e;
+  margin-top: 70px;
+  border-radius: 20px;
+  border-top: 5px solid rgb(184, 205, 50);
+  border-bottom: 5px solid rgb(184, 205, 50);
+}
+
+#button{
+  border-radius: 10px;
+  font-size: larger;
+  background-color: #5dcf6e;
+}
+
+.imaged {
+  flex: 1;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.cladi{
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.imaged img {
+  max-width: 100%;
+  border: 5px solid rgb(184, 184, 84);
+  width: 410px;
+  margin-top: 60px;
+  border-radius: 50px;
+  margin-left: 200px;
+}
+
+.soft h1 {
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+
+.soft p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.soft button {
+  color: #555555;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.soft button:hover {
+  background-color: #d5ef0d;
+}
+
+.social-icons {
+  display: flex;
+  margin-left: -20px;
+  margin-top: 15px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+
+.social-icons a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}

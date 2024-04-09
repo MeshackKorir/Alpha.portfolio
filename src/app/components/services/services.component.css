@@ -1,0 +1,47 @@
+.services {
+  text-align: center;
+  height: 70%;
+  width: 100%;
+}
+
+.services h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.cadiol{
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.card i {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.card:hover {
+  background-color: rgb(184, 205, 50);
+}
+
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.6;
+}

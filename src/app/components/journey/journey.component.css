@@ -1,0 +1,70 @@
+.section-title {
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 22px;
+  border-bottom: 3.2px solid yellow;
+  width: 300px;
+  margin-left: 450px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+.section.timeline {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+
+
+.timeline-center {
+  display: grid;
+  gap: 20px;
+}
+
+.timeline-item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.timeline-item h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.timeline-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.timeline-item .number {
+  display: inline-block;
+  background-color: #b8cd32;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.timeline-item h4, .timeline-item p {
+  display: inline;
+}
+
+.timeline-item:hover {
+  transform: translateY(8px);
+  transition: transform 0.3s ease-in-out;
+}

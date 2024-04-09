@@ -1,0 +1,55 @@
+.books-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Top row styles */
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+/* Bottom row styles */
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+/* Book card styles */
+.book-card {
+  width: calc(25% - 20px); /* Adjust as needed */
+  position: relative;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+/* Front of the book card */
+.book-card img {
+  height: 350px;
+  width: 280px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* Back of the book card */
+.book-card p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateY(180deg);
+  background-color: yellow;
+  padding: 10px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Rotate the card on hover and show the back */
+.book-card:hover p {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotateY(0deg);
+}
